@@ -1,0 +1,301 @@
+[
+  {
+    "name": "Categorias___es-MX",
+    "path": "/Categorias/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\categorias\\\\Categorias.vue",
+    "url": "/Categorias/",
+    "_name": "_0a1f4e17"
+  },
+  {
+    "name": "categories___es-MX",
+    "path": "/categories/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\categories\\\\index.vue",
+    "chunkName": "pages/categories/index",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "url": "/categories/",
+    "_name": "_c458f162"
+  },
+  {
+    "name": "Checkout___es-MX",
+    "path": "/Checkout/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\Checkout\\\\CheckOut.vue",
+    "url": "/Checkout/",
+    "_name": "_013f093a"
+  },
+  {
+    "name": "contact___es-MX",
+    "path": "/contact/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\contact\\\\index.vue",
+    "chunkName": "pages/contact/index",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "url": "/contact/",
+    "_name": "_3420f32e"
+  },
+  {
+    "name": "Contact___es-MX",
+    "path": "/Contacto/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\contact\\\\index.vue",
+    "url": "/Contacto/",
+    "_name": "_3420f32e"
+  },
+  {
+    "name": "error___es-MX",
+    "path": "/error/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\error.vue",
+    "chunkName": "pages/error",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "url": "/error/",
+    "_name": "_17962bbe"
+  },
+  {
+    "name": "products___es-MX",
+    "path": "/products/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\products\\\\index.vue",
+    "chunkName": "pages/products/index",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "url": "/products/",
+    "_name": "_1542a972"
+  },
+  {
+    "name": "Ubicacion___es-MX",
+    "path": "/Ubicacion/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\ubicacion\\\\ubicacion.vue",
+    "url": "/Ubicacion/",
+    "_name": "_521d7bd2"
+  },
+  {
+    "name": "account-addresses___es-MX",
+    "path": "/account/addresses/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\account\\\\addresses.vue",
+    "chunkName": "pages/account/addresses",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "url": "/account/addresses/",
+    "_name": "_423c0fe8"
+  },
+  {
+    "name": "account-create-account___es-MX",
+    "path": "/account/create-account/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\account\\\\create-account.vue",
+    "chunkName": "pages/account/create-account",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "url": "/account/create-account/",
+    "_name": "_5120013c"
+  },
+  {
+    "name": "account-forgot-password___es-MX",
+    "path": "/account/forgot-password/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\account\\\\forgot-password.vue",
+    "chunkName": "pages/account/forgot-password",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "url": "/account/forgot-password/",
+    "_name": "_1c0c4122"
+  },
+  {
+    "name": "account-login___es-MX",
+    "path": "/account/login/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\account\\\\login.vue",
+    "chunkName": "pages/account/login",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "url": "/account/login/",
+    "_name": "_5e372d5a"
+  },
+  {
+    "name": "account-orders___es-MX",
+    "path": "/account/orders/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\account\\\\orders\\\\index.vue",
+    "chunkName": "pages/account/orders/index",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "url": "/account/orders/",
+    "_name": "_14cbf692"
+  },
+  {
+    "name": "account-payments___es-MX",
+    "path": "/account/payments/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\account\\\\payments.vue",
+    "chunkName": "pages/account/payments",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "url": "/account/payments/",
+    "_name": "_0c045633"
+  },
+  {
+    "name": "account-reset-password___es-MX",
+    "path": "/account/reset-password/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\account\\\\reset-password.vue",
+    "chunkName": "pages/account/reset-password",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "url": "/account/reset-password/",
+    "_name": "_680c8fdf"
+  },
+  {
+    "name": "account-subscriptions___es-MX",
+    "path": "/account/subscriptions/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\account\\\\subscriptions\\\\index.vue",
+    "chunkName": "pages/account/subscriptions/index",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "url": "/account/subscriptions/",
+    "_name": "_6d3de422"
+  },
+  {
+    "name": "categorias-Categorias___es-MX",
+    "path": "/categorias/Categorias/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\categorias\\\\Categorias.vue",
+    "chunkName": "pages/categorias/Categorias",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "url": "/categorias/Categorias/",
+    "_name": "_0a1f4e17"
+  },
+  {
+    "name": "Checkout-CheckOut___es-MX",
+    "path": "/Checkout/CheckOut/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\Checkout\\\\CheckOut.vue",
+    "chunkName": "pages/Checkout/CheckOut",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "url": "/Checkout/CheckOut/",
+    "_name": "_013f093a"
+  },
+  {
+    "name": "Checkout-OrderDetail___es-MX",
+    "path": "/Checkout/OrderDetail/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\Checkout\\\\OrderDetail.vue",
+    "chunkName": "pages/Checkout/OrderDetail",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "url": "/Checkout/OrderDetail/",
+    "_name": "_68749f92"
+  },
+  {
+    "name": "mainStore-HomePage___es-MX",
+    "path": "/mainStore/HomePage/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\mainStore\\\\HomePage.vue",
+    "chunkName": "pages/mainStore/HomePage",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "url": "/mainStore/HomePage/",
+    "_name": "_0b5fbbaf"
+  },
+  {
+    "name": "ubicacion-ubicacion___es-MX",
+    "path": "/ubicacion/ubicacion/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\ubicacion\\\\ubicacion.vue",
+    "chunkName": "pages/ubicacion/ubicacion",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "url": "/ubicacion/ubicacion/",
+    "_name": "_521d7bd2"
+  },
+  {
+    "name": "account-orders-returns___es-MX",
+    "path": "/account/orders/returns/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\account\\\\orders\\\\returns.vue",
+    "chunkName": "pages/account/orders/returns",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "url": "/account/orders/returns/",
+    "_name": "_e2fd7530"
+  },
+  {
+    "name": "account-orders-id___es-MX",
+    "path": "/account/orders/:id/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\account\\\\orders\\\\_id.vue",
+    "chunkName": "pages/account/orders/_id",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "_name": "_667fc8df"
+  },
+  {
+    "name": "account-subscriptions-id___es-MX",
+    "path": "/account/subscriptions/:id/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\account\\\\subscriptions\\\\_id\\\\index.vue",
+    "chunkName": "pages/account/subscriptions/_id/index",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "_name": "_c6a4a390"
+  },
+  {
+    "name": "account-subscriptions-id-edit___es-MX",
+    "path": "/account/subscriptions/:id/edit/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\account\\\\subscriptions\\\\_id\\\\edit.vue",
+    "chunkName": "pages/account/subscriptions/_id/edit",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "_name": "_5583ce14"
+  },
+  {
+    "name": "categories-slug___es-MX",
+    "path": "/categories/:slug/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\categories\\\\_slug.vue",
+    "chunkName": "pages/categories/_slug",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "_name": "_c7c633f2"
+  },
+  {
+    "name": "OrderDetail___es-MX",
+    "path": "/confirmation/:id/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\Checkout\\\\OrderDetail.vue",
+    "_name": "_68749f92"
+  },
+  {
+    "name": "products-slug___es-MX",
+    "path": "/products/:slug/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\products\\\\_slug.vue",
+    "chunkName": "pages/products/_slug",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "_name": "_18afec02"
+  },
+  {
+    "name": "index___es-MX",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\mainStore\\\\HomePage.vue",
+    "url": "/",
+    "_name": "_0b5fbbaf"
+  },
+  {
+    "name": "slug___es-MX",
+    "path": "/:slug?/",
+    "component": "C:\\\\Users\\\\Desarrollo 5\\\\perla-negra\\\\pages\\\\_slug.vue",
+    "chunkName": "pages/_slug",
+    "pathToRegexpOptions": {
+      "strict": true
+    },
+    "_name": "_a28faaba"
+  }
+]

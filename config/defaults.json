@@ -1,0 +1,817 @@
+{
+  "colors": {
+    "outline": "hsla(200, 100%, 36%, 0.75)",
+    "primary": {
+      "darkest": "#090602",
+      "darker": "#1c1a17",
+      "dark": "#8C8984",
+      "med": "#ffb4f2",
+      "light": "#ffb4f2",
+      "lighter": "#ffb4f2",
+      "lightest": "#ffb4f2"
+    },
+    "accent": "#38bdf8",
+    "status": {
+      "ok": "#3d995e",
+      "ok_faded": "#c5e7d1",
+      "warn": "#ffca38",
+      "error": "#e61c1c",
+      "error_faded": "#ffd6d6"
+    }
+  },
+  "header": {
+    "logo_width": 225,
+    "logo_position": "left",
+    "menu": "header",
+    "logo": "data:image/jpeg;base64,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",
+    "show_promo": false,
+    "promo_text": "",
+    "promo_url": "",
+    "hide_on_scroll": true,
+    "favicon": "",
+    "locale": {
+      "display": "flag",
+      "hide_flag": false
+    },
+    "currency": {
+      "display": "symbol-code",
+      "hide_symbol": false
+    }
+  },
+  "footer": {
+    "menu": "footer",
+    "secondary_menu": "footer-secondary",
+    "show_secondary_menu": true,
+    "show_social": true,
+    "show_contact_info": true,
+    "show_email_signup": true
+  },
+  "analytics": {
+    "gtm_id": ""
+  },
+  "social": {
+    "sharing": true,
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true
+  },
+  "social_links": {
+    "twitter": {
+      "show": true,
+      "url": ""
+    },
+    "facebook": {
+      "show": true,
+      "url": ""
+    },
+    "pinterest": {
+      "show": true,
+      "url": ""
+    },
+    "instagram": {
+      "show": true,
+      "url": ""
+    },
+    "youtube": {
+      "show": true,
+      "url": ""
+    },
+    "vimeo": {
+      "show": true,
+      "url": ""
+    },
+    "whatsapp": {
+      "show": true,
+      "url": ""
+    }
+  },
+  "product_list": {
+    "enable_quick_add": true
+  },
+  "account": {
+    "subscriptions": {
+      "allow_plan_edit": true,
+      "allow_frequency_edit": true,
+      "allow_options_edit": true
+    }
+  },
+  "cart": {
+    "shop_link": "/categories/",
+    "validate_stock": true
+  },
+  "typography": {
+    "heading_font": {
+      "provider": "Google",
+      "name": "Roboto",
+      "weight": 900,
+      "fallback": "-apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif"
+    },
+    "body_font_normal": {
+      "provider": "Google",
+      "name": "Roboto",
+      "weight": 400,
+      "fallback": "-apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif"
+    },
+    "body_font_bold": {
+      "provider": "Google",
+      "name": "Roboto",
+      "weight": 600,
+      "fallback": "-apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif"
+    },
+    "scale_base_size": "16px",
+    "scale_ratio": 1.125
+  },
+  "product_previews": {
+    "aspect_ratio": "1:1",
+    "text_align": "left"
+  },
+  "lang": {
+    "filter": {
+      "price": "precio"
+    },
+    "cart": {
+      "item": {
+        "remove": "Remove",
+        "close_edit": "Close",
+        "edit": "Edit",
+        "trial_days": "Incl. {n} trial day | Incl. {n} trial days"
+      },
+      "updating": "Updating",
+      "checkout": "Checkout",
+      "account_balance": "Account balance",
+      "total": "Total",
+      "taxes": "Taxes",
+      "discounts": "Discounts",
+      "shipping": "Shipping",
+      "subtotal": "Subtotal",
+      "gift_card": "{amount} gift card",
+      "apply_coupon": "Apply coupon",
+      "back_to_products": "Shop now",
+      "empty": "Your cart is empty.",
+      "title": "Carrito",
+      "exceeds_stock_level": "You cannot add more than what is available of this product."
+    },
+    "errors": {
+      "category_not_found": "Category not found",
+      "page_not_found": {
+        "message": "The link you clicked may have changed or the URL is incorrect. Try searching?",
+        "title": "Page not found"
+      },
+      "internal": {
+        "reload": "Reload page",
+        "message": "Something went wrong, but the issue has been logged and we’ll look into it.",
+        "title": "Internal server error"
+      },
+      "return_home": "Return home",
+      "error_code": "{code} error"
+    },
+    "email_signup": {
+      "email": {
+        "error": "That doesn't look like an email..."
+      },
+      "success": "You're on the list!",
+      "placeholder": "E-mail",
+      "send": "Send"
+    },
+    "notifications": {
+      "cookies": {
+        "privacy": "Learn more",
+        "message": "We use cookies to improve your shopping experience.",
+        "close": "Close"
+      },
+      "cart": "View cart",
+      "checkout": "Checkout"
+    },
+    "navigation": {
+      "account": "Account",
+      "search": "Search",
+      "menu": "Menu"
+    },
+    "search": {
+      "info": "Press enter to search",
+      "placeholder": "e.g. product model",
+      "title": "Search products"
+    },
+    "products": {
+      "preview": {
+        "save": "Guardar",
+        "sale": "Agregar",
+        "unavailable_in_currency": "No disponible en {currency}",
+        "quick_add": {
+          "adding": {
+            "loading_label": "Adding...",
+            "label": "Adding..."
+          },
+          "add_to_cart": "Agragar al carrito",
+          "quick_add": "Quick add",
+          "quick_view": "Quick view",
+          "out_of_stock": "This product is out of stock."
+        }
+      },
+      "_slug": {
+        "share": "Share it",
+        "updating": "Updating",
+        "save": "Save",
+        "add_to_cart": "Agregar al carrito",
+        "unavailable_in_currency": "No diponible en {currency}",
+        "unavailable_in_currency_add_to_cart": "Unavailable in currency {currency}",
+        "bundle": {
+          "title": "In this bundle",
+          "out_of_stock": "This product is out of stock."
+        },
+        "up_sell": {
+          "title": "Other items you may like"
+        },
+        "stock_remaining": "{n} remaining",
+        "options": {
+          "required": "Please enter a value."
+        },
+        "stock_status": {
+          "out_of_stock": {
+            "message": "",
+            "label": "Out of stock"
+          },
+          "limited_availability": {
+            "message": "Ships in 1–2 days",
+            "label": "Low stock"
+          },
+          "in_stock": {
+            "message": "Ships in 1–2 days",
+            "label": "In stock"
+          },
+          "custom": {
+            "message": "Ships in 9–16 days",
+            "label": "Custom order"
+          },
+          "bundle_items_unavailable": {
+            "message": "",
+            "label": "Bundle item(s) unavailable"
+          }
+        },
+        "purchase_options": {
+          "interval": {
+            "daily": {
+              "label": "days | day | days",
+              "short": "day"
+            },
+            "weekly": {
+              "label": "weeks | week | weeks",
+              "short": "wk"
+            },
+            "monthly": {
+              "label": "months | month | months",
+              "short": "mo"
+            },
+            "yearly": {
+              "label": "years | year | years",
+              "short": "yr"
+            },
+            "products_interval": "{count} every {n} {interval}",
+            "trial_days": "Includes {n} trial day | Includes {n} trial days"
+          },
+          "standard": {
+            "default_label": "One-time Purchase"
+          }
+        }
+      }
+    },
+    "categories": {
+      "_slug": {
+        "pagination": {
+          "page": "Page {currentPage} of {pagesCount}",
+          "next": "Next",
+          "previous": "Previous"
+        },
+        "apply": "Aplicar Filtros",
+        "clear": "Limpiar Filtros",
+        "refine": "Refine results",
+        "edit_filters": "Edit filters",
+        "category_products_not_found": "We couldn't find any products in this category.",
+        "filter_products_not_found": "We couldn't find any products matching your criteria.",
+        "sort_modes": {
+          "price_desc": "Price, high to low",
+          "price_asc": "Price, low to high",
+          "popularity": "Best selling",
+          "latest": "Latest"
+        },
+        "sort": "Sort",
+        "products_count": "{n} products | {n} product | {n} products",
+        "filters": "Filters"
+      }
+    },
+    "account": {
+      "payments": {
+        "popup": {
+          "delete": {
+            "error": "There was an issue deleting this card.",
+            "success": "Card deleted.",
+            "button": {
+              "loading_label": "Deleting",
+              "label": "Delete card"
+            }
+          },
+          "save": {
+            "error": "There was an issue updating your payment method.",
+            "success": "Payment method updated.",
+            "button": {
+              "loading_label": "Saving",
+              "label": "Save card"
+            }
+          },
+          "create": {
+            "error": "There was an issue adding your payment method.",
+            "success": "Payment method created.",
+            "button": {
+              "loading_label": "Adding",
+              "label": "Add new payment method"
+            }
+          },
+          "new_billing_address": "Add a new address",
+          "no_billing_address": "You have no existing addresses. Create one below.",
+          "billing_address": "Billing address",
+          "card": {
+            "set_as_default": "Use as default card."
+          },
+          "cvc": {
+            "format": "Enter a valid card security code.",
+            "required": "Please enter your card security code.",
+            "label": "CVC"
+          },
+          "card_expiry": {
+            "date": "Enter a valid expiry date.",
+            "required": "Enter your card expiry date.",
+            "label": "Card expiry"
+          },
+          "card_number": {
+            "max_length": "Please enter a valid card number.",
+            "required": "Please enter your card number.",
+            "label": "Card number"
+          },
+          "edit": {
+            "title": "Edit payment method"
+          },
+          "new": {
+            "title": "Add new payment method"
+          }
+        },
+        "card": {
+          "edit": "Edit",
+          "no_billing_address": "No billing address assigned yet.",
+          "billing_address": "Billing address",
+          "default": "Default"
+        },
+        "add_payment_method": "Add new payment method",
+        "no_payment_methods": "There are no payment methods associated with this account.",
+        "title": "Payment methods"
+      },
+      "login": {
+        "error": "Your email or password was entered incorrectly.",
+        "success": "You’ve succesfully logged in.",
+        "button": {
+          "loading_label": "Logging in",
+          "label": "Log in"
+        },
+        "create_account": "Create account",
+        "forgot_password": "Did you forgot your password?",
+        "password": {
+          "required": "Please enter your password.",
+          "placeholder": "Your password",
+          "label": "Password"
+        },
+        "email": {
+          "format": "Please enter a valid e-mail address.",
+          "required": "Please enter your e-mail address.",
+          "placeholder": "E-mail",
+          "label": "E-mail"
+        },
+        "title": "Log in",
+        "not_logged_in": "You are currently not logged in. Please log in to continue."
+      },
+      "reset_password": {
+        "error": "There was an error updating your password. The reset password key may have expired.",
+        "success": "You’ve successfully updated your password.",
+        "button": {
+          "loading_label": "Processing...",
+          "label": "Change password"
+        },
+        "confirm_password": {
+          "not_match": "Passwords do not match.",
+          "placeholder": "Confirm new password"
+        },
+        "password": {
+          "min_length": "Your password needs to be at least {n} characters.",
+          "required": "Please enter your password.",
+          "hint": "Must include a minimum of {n} characters.",
+          "placeholder": "Your password",
+          "label": "Password"
+        },
+        "info_text": "Please enter your new password.",
+        "title": "Change your password"
+      },
+      "forgot_password": {
+        "error": "There was an error resetting your password.",
+        "success": "An email has been sent to reset your password.",
+        "log_in": "Back to log in",
+        "button": {
+          "loading_label": "Sending...",
+          "label": "Send email"
+        },
+        "email": {
+          "format": "Please enter a valid e-mail address.",
+          "required": "Please enter your e-mail address.",
+          "placeholder": "E-mail",
+          "label": "E-mail"
+        },
+        "info_text": "Enter your email address and we’ll send you an email on how to reset your password.",
+        "title": "Forgot your password?"
+      },
+      "create_account": {
+        "error": "There was an error creating your account. Please try again later.",
+        "already_exists": "An account already exists under this e-mail address. Please log in.",
+        "success": "You’ve succesfully created an account.",
+        "log_in": "Log in",
+        "button": {
+          "loading_label": "Creating",
+          "label": "Create account"
+        },
+        "password": {
+          "min_length": "Your password needs to be at least {n} characters.",
+          "required": "Please enter your password.",
+          "hint": "Must include a minimum of {n} characters.",
+          "placeholder": "Your password",
+          "label": "Password"
+        },
+        "email": {
+          "format": "Please enter a valid e-mail address.",
+          "required": "Please enter your e-mail address.",
+          "placeholder": "E-mail",
+          "label": "E-mail"
+        },
+        "last_name": {
+          "max_length": "Last name cannot exceed {n} characters.",
+          "required": "Please enter your last name.",
+          "label": "Last name"
+        },
+        "first_name": {
+          "max_length": "First name cannot exceed {n} characters.",
+          "required": "Please enter your first name.",
+          "label": "First name"
+        },
+        "title": "Create account"
+      },
+      "addresses": {
+        "popup": {
+          "delete": {
+            "error": "There was an error deleting this address.",
+            "success": "Address deleted.",
+            "button": {
+              "loading_label": "Deleting address",
+              "label": "Delete address"
+            }
+          },
+          "save": {
+            "error": "There was an error updating this address.",
+            "success": "Address updated.",
+            "button": {
+              "loading_label": "Saving address",
+              "label": "Save address"
+            }
+          },
+          "create": {
+            "error": "There was an error updating this address.",
+            "success": "Address created.",
+            "button": {
+              "loading_label": "Creating address",
+              "label": "Create address"
+            }
+          },
+          "set_as_default": "Make this my default shipping address.",
+          "country": {
+            "required": "Please enter your country.",
+            "label": "Country"
+          },
+          "zipCode": {
+            "required": "Please enter your zip code.",
+            "label": "Zip code"
+          },
+          "region": {
+            "required": "Please enter your region.",
+            "label": "Region"
+          },
+          "city": {
+            "required": "Please enter your city.",
+            "label": "City"
+          },
+          "phone": {
+            "format": "Please enter a valid phone number.",
+            "label": "phone"
+          },
+          "address2": {
+            "label": "Apartment / Floor / Suite"
+          },
+          "address1": {
+            "required": "Please enter your address.",
+            "label": "Address"
+          },
+          "last_name": {
+            "max_length": "Last name cannot exceed {n} characters.",
+            "required": "Please enter your last name.",
+            "label": "Last name"
+          },
+          "first_name": {
+            "max_length": "First name cannot exceed {n} characters.",
+            "required": "Please enter your first name.",
+            "label": "First name"
+          },
+          "edit": {
+            "title": "Edit address"
+          },
+          "new": {
+            "title": "Add new address"
+          }
+        },
+        "edit": "Edit",
+        "remove": "Remove",
+        "use_as_default": "Use as default",
+        "default": "Default",
+        "set_default_address": {
+          "success": "Address set as default.",
+          "loading": "Setting as default",
+          "no": "No",
+          "yes": "Yes",
+          "text": "Are you sure you want to make this your default address?",
+          "title": "Set default address"
+        },
+        "delete_address": {
+          "success": "Address deleted.",
+          "loading": "Removing",
+          "no": "No, keep it.",
+          "yes": "Yes, remove it.",
+          "text": "Are you sure you want to remove this address?",
+          "title": "Delete address"
+        },
+        "add_address": "Add new address",
+        "no_addresses": "There are no addresses associated with this account.",
+        "other_addresses": "Other addresses",
+        "title": "Addresses"
+      },
+      "subscriptions": {
+        "subscription": {
+          "summary": "{interval} at {amount}",
+          "status": {
+            "active_message": "You can edit your plan or order items until this time. We’ll ship your order the next day.",
+            "active": "Renews {date} at {time}",
+            "paused_message": "Your subscription has been paused. You can resume your subscription below.",
+            "paused": "Paused since {date}",
+            "paused_resumes_message": "Your subscription has been paused, but scheduled to resume. You can still change when your subscription resumes below.",
+            "paused_resumes": "Paused. Resumes on {date} at {time}.",
+            "trial_message": "You can edit your plan or order items until this time. We’ll ship your order the next day.",
+            "trial": "Trial ends {date} at {time}",
+            "canceled_message": "Your subscription has been cancellled and is unable to be reactivated.",
+            "canceled": "Canceled on {date}"
+          },
+          "view": "View subscription"
+        },
+        "_id": {
+          "edit": {
+            "contact": "Contact us",
+            "back_to_subscription": "Back to",
+            "title": "Edit plan",
+            "change_frequency": "Change frequency",
+            "change_options": "Change option",
+            "plan": "Plan",
+            "popup": {
+              "change_frequency": {
+                "title": "Change frequency",
+                "text": "Changing your subscription frequency will change all future order dates and pricing.",
+                "yes": "Save",
+                "no": "Go back",
+                "loading": "Saving",
+                "success": "Your subscription has been updated."
+              },
+              "change_options": {
+                "title": "Change options",
+                "yes": "Save",
+                "no": "Go back",
+                "loading": "Saving",
+                "success": "Your subscription has been updated."
+              }
+            }
+          },
+          "popup": {
+            "cancel": {
+              "success": "Subscription cancelled successfully.",
+              "loading": "Canceling",
+              "no": "No",
+              "yes": "Yes",
+              "text": "Are you sure you want to cancel this subscription?",
+              "title": "Cancel subscription"
+            },
+            "update": {
+              "billing_address": {
+                "success": "Billing address updated."
+              },
+              "shipping_address": {
+                "success": "Shipping address updated."
+              }
+            },
+            "pause": {
+              "title": "Pause your subscription",
+              "message": "We all need a break from time to time. You can also skip the next cycle and continue with your subscription.",
+              "pause_now": "Pause subscription now",
+              "skip_cycle": "Skip this cycle",
+              "no": "Go back",
+              "yes": "Save",
+              "loading": "Saving",
+              "success": "Your subscription has been paused.",
+              "skip_cycle_success": "Your subscription will skip the next cycle."
+            },
+            "resume": {
+              "title": "Resume your subscription",
+              "message": "Resume your subscription now or choose a date and time. If you choose a different date, you’ll be billed on that day.",
+              "resume_now": "Resume subscription now",
+              "choose_date": "Choose date and time",
+              "no": "Go back",
+              "yes": "Save",
+              "continue": "Continue",
+              "loading": "Saving",
+              "success": "Your subscription has been resumed."
+            },
+            "chooseDate": {
+              "title": "Choose date and time",
+              "message": "You’re about to change your order date.",
+              "date": {
+                "label": "Resume date",
+                "required": "Please enter a date",
+                "valid": "Please enter a future date"
+              },
+              "time": {
+                "label": "Resume date",
+                "required": "Please enter a date",
+                "valid": "Please enter a future date"
+              },
+              "no": "Cancel",
+              "yes": "Save new date",
+              "loading": "Saving",
+              "success": "Subscription will resume on {date}."
+            }
+          },
+          "pause": {
+            "title": "Need a break?",
+            "message": "We get it. Sometimes we all need to snooze and sleep in. Pause your subscription before the next billing cycle and you won’t get charged.",
+            "label": "Pause subscription"
+          },
+          "resume": {
+            "title": "Resume your subscription",
+            "message": "You paused your subscription on {date}. You can resume your subscription now or choose a specific date.",
+            "label": "Resume subscription"
+          },
+          "cancel_subscription": "Cancel subscription",
+          "renewal": "{date} at {time}",
+          "orders": "Orders",
+          "edit_billing_address": "Edit",
+          "billing_address": "Billing address",
+          "payment_method": "Payment method",
+          "delivery_method": "Delivery method",
+          "change_delivery": "Change delivery details",
+          "phone_number": "Phone number",
+          "delivery_address": "Delivery address",
+          "delivery_details": "Delivery details",
+          "edit_plan": "Edit plan",
+          "plan_renews": "Plan renews",
+          "next_order": "Next order",
+          "trial_ends": "Trial ends",
+          "free_shipping": "Free",
+          "total": "Total",
+          "shipping": "Shipping",
+          "plan": "Plan",
+          "plan_items": "Plan items",
+          "plan_total": "Plan",
+          "back_to_subscriptions": "Back to all subscriptions"
+        },
+        "back_to_products": "Start shopping",
+        "no_subscriptions": "You currently have no subscriptions.",
+        "title": "Subscriptions"
+      },
+      "orders": {
+        "returns": {
+          "info_text": "Contact us, so we can start the return process. Don’t forget to include the order number and the reason for returning.",
+          "title": "Returns",
+          "back_to_orders": "Back to order | Back to orders"
+        },
+        "_id": {
+          "order_status": {
+            "cancelled": "Cancelled",
+            "complete": "Fulfilled",
+            "hold": "On hold",
+            "pending_delivery": "Pending delivery",
+            "pending_payment": "Pending payment",
+            "draft": "Draft",
+            "pending": "Order is pending"
+          },
+          "billing_address": "Billing address",
+          "cash_on_delivery_message": "Your order can be paid with cash on delivery.",
+          "cash_on_delivery": "Cash on delivery",
+          "bank_deposit_message": "Your order was paid using bank deposit.",
+          "bank_deposit": "Bank deposit",
+          "gift_card": "Gift card",
+          "account_credit_message": "Your order was paid using your account credit.",
+          "account_credit": "Account credit",
+          "payment_method": "Payment method",
+          "date_shipped": "Date shipped",
+          "tracking_code": "Tracking code",
+          "carrier": "Carrier",
+          "fulfilled_deliveries": "Fulfilled deliveries",
+          "delivery_method": "Delivery method",
+          "phone_number": "Phone number",
+          "delivery_address": "Delivery address",
+          "delivery_details": "Delivery details",
+          "taxes": "Taxes",
+          "discounts_and_credits": "Discounts and credits",
+          "shipping": "Shipping",
+          "subtotal": "Subtotal",
+          "quantity": "Qty: {n}",
+          "bundle_includes": "Bundle includes",
+          "items": "no items | {n} item | {n} items",
+          "order_summary": "Order summary",
+          "create_return": "Create a return",
+          "total": "Total",
+          "order_date": "Order date",
+          "order": "Order",
+          "back_to_orders": "Back to all orders"
+        },
+        "order": {
+          "status": {
+            "canceled_message": "Your order has been canceled.",
+            "canceled": "Canceled",
+            "complete_message": "Your order has been fulfilled.",
+            "complete": "Fulfilled",
+            "hold_message": "Your order is currently on hold.",
+            "hold": "On hold",
+            "pending_delivery_message": "Your order is pending delivery.",
+            "pending_delivery": "Pending delivery",
+            "pending_payment_message": "Your order is pending payment.",
+            "pending_payment": "Pending payment",
+            "draft_message": "Your order is currently in draft mode.",
+            "draft": "Draft mode",
+            "pending_message": "We have received your order!",
+            "pending": "Order received"
+          },
+          "view": "View order",
+          "total": "Total",
+          "date": "Order date",
+          "title": "Order"
+        },
+        "title": "Orders & Returns",
+        "back_to_products": "Start shopping",
+        "no_orders": "You haven’t ordered anything yet."
+      },
+      "popup": {
+        "save": {
+          "error": "There was an error updating your account.",
+          "success": "Account updated.",
+          "loading_label": "Saving",
+          "label": "Save changes"
+        },
+        "subscribe": {
+          "label": "Create account"
+        },
+        "confirm_password": {
+          "not_match": "Passwords do not match.",
+          "placeholder": "Confirm new password"
+        },
+        "password": {
+          "min_length": "Your password needs to be at least {n} characters.",
+          "required": "Please enter your password.",
+          "hint": "Must include a minimum of {n} characters.",
+          "placeholder": "Your password",
+          "label": "Password"
+        },
+        "email": {
+          "format": "Please enter a valid e-mail address.",
+          "required": "Please enter your e-mail address.",
+          "placeholder": "E-mail",
+          "label": "E-mail"
+        },
+        "last_name": {
+          "max_length": "Last name cannot exceed {n} characters.",
+          "required": "Please enter your last name.",
+          "label": "Last name"
+        },
+        "first_name": {
+          "max_length": "First name cannot exceed {n} characters.",
+          "required": "Please enter your first name.",
+          "label": "First name"
+        }
+      },
+      "edit": "Edit profile",
+      "logout": {
+        "label": "Log out",
+        "confirm": "Are you sure you want to log out?",
+        "confirm_yes": "Yes",
+        "confirm_no": "No",
+        "success": "You’ve succesfully logged out."
+      }
+    }
+  }
+}
